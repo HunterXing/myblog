@@ -9,10 +9,12 @@
          //判断请求的类型
          if (IS_POST) {
              //如果请求时post，则IS_POST的值时true，否则为false
-             $post =  I('post.');
-          //写入数据
+             // $post =  I('post.');
+             //写入数据
              $model = M('Dept');
-             $result = $model -> add($post);
+             $data = $model -> create();//不传递参数则接受post数据
+             // dump($data);die;
+             $result = $model -> add($data);
              //判断返回值
              if($result){
                 //成功
