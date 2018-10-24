@@ -10,10 +10,14 @@
          if (IS_POST) {
              //如果请求时post，则IS_POST的值时true，否则为false
              // $post =  I('post.');
-             //写入数据
-             $model = M('Dept');
-             $data = $model -> create();//不传递参数则接受post数据
-             // dump($data);die;
+             //写入数据 在自定义模型时MOdel的子类，所以使用D
+             $model = D('Dept');
+             $data = $model -> create();//不传递参数 则接受post数据
+             if(!$data){
+                //dump($model -> getError());die;
+                $this -> error($model -> getError());exit;
+             }
+             //dump($data);die;
              $result = $model -> add($data);
              //判断返回值
              if($result){
