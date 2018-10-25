@@ -56,7 +56,7 @@ class Verify {
      * 设置验证码配置
      * @access public     
      * @param  string $name 配置名称
-     * @param  string $value 配置值     
+     * @param  string $value 配置值  
      * @return void
      */
     public function __set($name,$value){

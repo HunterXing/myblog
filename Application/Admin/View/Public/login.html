@@ -23,7 +23,9 @@
                     <p class="yzm ue-clear">
                     	<label>验证码</label>
                         <input type="text" />
-                        <cite>X394D</cite>
+                        <!-- 需要的验证码地址 -->
+                        <!-- http://www.oa.com/Admin/Public/captcha -->
+                        <cite style="margin-left: 10px"><img id ="captcha" src="__CONTROLLER__/captcha" alt="" style="margin:0 auto"></cite>
                     </p>
                 </div>
                 <div class="login-btn ue-clear">
@@ -45,7 +47,10 @@
 var height = $(window).height();
 $("#container").height(height);
 $("#bd").css("padding-top",height/2 - $("#bd").height()/2);
-
+$('#captcha').click(function () {
+    $('#captcha')[0].src="__CONTROLLER__/captcha";
+    console.log("点击");
+});
 $(window).resize(function(){
 	var height = $(window).height();
 	$("#bd").css("padding-top",$(window).height()/2 - $("#bd").height()/2);
@@ -60,6 +65,7 @@ $('#remember').focus(function(){
 $('#remember').click(function(e) {
 	checkRemember($(this));
 });
+
 
 function checkRemember($this){
 	if(!-[1,]){
