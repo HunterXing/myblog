@@ -45,13 +45,14 @@
        //dump($data);die;
        foreach ($data as $key => $value) {
          //dump($value['pid']);die;
-         //
+         //$value['pid'] 代表是上级部门的id 大于 0时才有意义
          if($value['pid'] > 0){
-           $info = $model ->find($value['pid']) ;
-            dump($info);die;
+            $info = $model ->find($value['pid']) ;
+            $data[$key]['deptname'] = $info['name'];
+            //dump($info);die;
          }
-
        }
+       //dump($data);die;
        $this -> assign('data',$data);
        $this -> display();
      }
