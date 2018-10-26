@@ -30,54 +30,15 @@
             </tr>
         </thead>
         <tbody>
-        	<tr>
-            	<td class="num">1</td>
-                <td class="name">总裁办</td>
-                <td class="process">顶级部门</td>
-                <td class="node">1</td>
-                <td class="time">无</td>
-                <td class="operate"><a href="javascript:;">查看</a></td>
-            </tr>
-            <tr>
-                <td class="num">1</td>
-                <td class="name">总裁办</td>
-                <td class="process">顶级部门</td>
-                <td class="node">1</td>
-                <td class="time">无</td>
-                <td class="operate"><a href="javascript:;">查看</a></td>
-            </tr>
-            <tr>
-                <td class="num">1</td>
-                <td class="name">总裁办</td>
-                <td class="process">顶级部门</td>
-                <td class="node">1</td>
-                <td class="time">无</td>
-                <td class="operate"><a href="javascript:;">查看</a></td>
-            </tr>
-            <tr>
-                <td class="num">1</td>
-                <td class="name">总裁办</td>
-                <td class="process">顶级部门</td>
-                <td class="node">1</td>
-                <td class="time">无</td>
-                <td class="operate"><a href="javascript:;">查看</a></td>
-            </tr>
-            <tr>
-                <td class="num">1</td>
-                <td class="name">总裁办</td>
-                <td class="process">顶级部门</td>
-                <td class="node">1</td>
-                <td class="time">无</td>
-                <td class="operate"><a href="javascript:;">查看</a></td>
-            </tr>
-            <tr>
-                <td class="num">1</td>
-                <td class="name">总裁办</td>
-                <td class="process">顶级部门</td>
-                <td class="node">1</td>
-                <td class="time">无</td>
-                <td class="operate"><a href="javascript:;">查看</a></td>
-            </tr>
+					<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+						  <td class="num">	<?php echo ($vo["id"]); ?></td>
+							<td class="name"><?php echo ($vo["name"]); ?></td>
+							<td class="process"><?php echo ($vo["pid"]); ?></td>
+							<td class="node"><?php echo ($vo["sort"]); ?></td>
+							<td class="time"><?php echo ($vo["remark"]); ?></td>
+							<td class="operate"><a href="javascript:;">查看</a></td>
+						</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+
         </tbody>
     </table>
 </div>
@@ -100,7 +61,7 @@ $(".select-list").on("click","li",function(){
 
 $('.pagination').pagination(100,{
 	callback: function(page){
-		alert(page);	
+		alert(page);
 	},
 	display_msg: true,
 	setPageNo: true

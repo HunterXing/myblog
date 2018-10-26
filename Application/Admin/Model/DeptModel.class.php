@@ -24,4 +24,5 @@ class DeptModel extends Model{
 	   //验证字段是数字
 	   array('sort','number','排序必须是数字'),
 	 );
+
 }

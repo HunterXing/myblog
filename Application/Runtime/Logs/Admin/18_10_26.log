@@ -57,3 +57,6 @@ ERR: 非法操作:login
 [ 2018-10-26T11:58:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-reg.html
 ERR: 非法操作:info-reg
 
+[ 2018-10-26T18:43:42+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: Think\Model:assign方法不存在！
+

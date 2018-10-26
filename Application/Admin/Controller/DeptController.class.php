@@ -36,4 +36,23 @@
              $this ->display();
          }
      }
+
+
+     //展示列表
+     public function showList(){
+       $model = M('Dept');
+       $data = $model -> select();
+       //dump($data);die;
+       foreach ($data as $key => $value) {
+         //dump($value['pid']);die;
+         //
+         if($value['pid'] > 0){
+           $info = $model ->find($value['pid']) ;
+            dump($info);die;
+         }
+
+       }
+       $this -> assign('data',$data);
+       $this -> display();
+     }
  }

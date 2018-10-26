@@ -7,3 +7,24 @@ ERR: 无法加载模块:Public
 [ 2018-10-26T11:23:13+08:00 ] 127.0.0.1 /favicon.ico
 ERR: 无法加载模块:Favicon
 
+[ 2018-10-26T18:19:11+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2018-10-26T18:53:24+08:00 ] 127.0.0.1 /info-reg.html
+ERR: 无法加载模块:Info-reg
+
+[ 2018-10-26T18:53:27+08:00 ] 127.0.0.1 /info-reg.html
+ERR: 无法加载模块:Info-reg
+
+[ 2018-10-26T18:53:27+08:00 ] 127.0.0.1 /info-mgt.html
+ERR: 无法加载模块:Info-mgt
+
+[ 2018-10-26T18:53:28+08:00 ] 127.0.0.1 /info-det.html
+ERR: 无法加载模块:Info-det
+
+[ 2018-10-26T18:53:30+08:00 ] 127.0.0.1 /info-reg.html
+ERR: 无法加载模块:Info-reg
+
+[ 2018-10-26T20:42:40+08:00 ] 127.0.0.1 /info-reg.html
+ERR: 无法加载模块:Info-reg
+
