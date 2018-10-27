@@ -18,9 +18,8 @@
 	    <div class="short-input select ue-clear">
 	    	<label>上级部门：</label>
 	        <div class="select-wrap">
-	        	<select name="1">
-	                <option value="0">顶级部门</option>
-	                <option value="1">部门</option>
+	        	<select name="pid">
+              <?php if(is_array($deptNames)): $i = 0; $__LIST__ = $deptNames;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><option value="{vol.id}"><?php echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
 	            </select>
 	        </div>
 	    </div>

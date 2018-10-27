@@ -18,9 +18,10 @@
 	    <div class="short-input select ue-clear">
 	    	<label>上级部门：</label>
 	        <div class="select-wrap">
-	        	<select name="1">
-	                <option value="0">顶级部门</option>
-	                <option value="1">部门</option>
+	        	<select name="pid">
+              <volist name="deptNames" id="vol">
+                <option value="{vol.id}">{$vo.name}</option>
+              </volist>
 	            </select>
 	        </div>
 	    </div>

@@ -67,9 +67,9 @@
       //实例化模型
       $model = D('Dept');
       $data = $model -> find($id);
-      $deptNames = $model -> find('pid');
+      $deptNames = $model->select();
       $this -> assign('data',$data);
-      //dump($data);die;
+      //dump($deptNames);die;
       //展示模板
       $this -> display();
     }
