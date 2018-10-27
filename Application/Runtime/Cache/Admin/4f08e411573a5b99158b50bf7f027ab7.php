@@ -24,7 +24,7 @@
             	<th class="num">序号</th>
                 <th class="name">部门</th>
                 <th class="process">所属部门</th>
-                <th class="node">排序</th>
+                <th class="node">排序 </th>
                 <th class="time">备注</th>
                 <th class="operate">操作</th>
             </tr>
@@ -32,16 +32,15 @@
         <tbody>
 					<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><tr>
 						  <td class="num"><?php echo ($vol["id"]); ?></td>
-							<td class="name"><?php echo ($vol["name"]); ?></td>
+							<td class="name"><?php echo (str_repeat('&nbsp;',$vol["level"]*3)); echo ($vol["name"]); ?></td>
 							<td class="process">
 								<?php if($vol["pid"] == 0): ?>顶级部门
 									<?php else: echo ($vol["deptname"]); endif; ?>
 							</td>
 							<td class="node"><?php echo ($vol["sort"]); ?></td>
 							<td class="time"><?php echo ($vol["remark"]); ?></td>
-							<td class="operate"><a href="javascript:;">查看</a></td>
+							<td class="operate"><a href="/index.php/Admin/Dept/edit/id/<?php echo ($vol["id"]); ?>">编辑</a></td>
 						</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-
         </tbody>
     </table>
 </div>

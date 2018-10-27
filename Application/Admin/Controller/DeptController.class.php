@@ -52,8 +52,25 @@
             //dump($info);die;
          }
        }
+       //使用load方法载入文件
+       load('@/tree');
+       $data = getTree($data);
        //dump($data);die;
        $this -> assign('data',$data);
        $this -> display();
      }
+
+     //edit
+    public function edit(){
+      //接受id
+      $id = I('get.id');
+      //实例化模型
+      $model = D('Dept');
+      $data = $model -> find($id);
+      $deptNames = $model -> find('pid');
+      $this -> assign('data',$data);
+      //dump($data);die;
+      //展示模板
+      $this -> display();
+    }
  }
