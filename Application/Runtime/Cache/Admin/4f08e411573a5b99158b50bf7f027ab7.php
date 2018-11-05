@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="/Public//Admin/css/base.css" />
-<link rel="stylesheet" href="/Public//Admin/css/info-mgt.css" />
-<link rel="stylesheet" href="/Public//Admin/css/WdatePicker.css" />
+<link rel="stylesheet" href="/Public/Admin/css/base.css" />
+<link rel="stylesheet" href="/Public/Admin/css/info-mgt.css" />
+<link rel="stylesheet" href="/Public/Admin/css/WdatePicker.css" />
 <title>移动办公自动化系统</title>
 </head>
 
@@ -49,10 +49,10 @@
 </div>
 <div class="pagination ue-clear"></div>
 </body>
-<script type="text/javascript" src="/Public//Admin/js/jquery.js"></script>
-<script type="text/javascript" src="/Public//Admin/js/common.js"></script>
-<script type="text/javascript" src="/Public//Admin/js/WdatePicker.js"></script>
-<script type="text/javascript" src="/Public//Admin/js/jquery.pagination.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/WdatePicker.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.pagination.js"></script>
 <script type="text/javascript">
 $(".select-title").on("click",function(){
 	$(".select-list").hide();

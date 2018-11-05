@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="/Public//Admin/css/base.css" />
-<link rel="stylesheet" type="text/css" href="/Public//Admin/css/jquery.dialog.css" />
-<link rel="stylesheet" href="/Public//Admin/css/index.css" />
+<link rel="stylesheet" href="/Public/Admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/Public/Admin/css/jquery.dialog.css" />
+<link rel="stylesheet" href="/Public/Admin/css/index.css" />
 <title>移动办公自动化系统</title>
 </head>
 
@@ -119,9 +119,9 @@
   </div>
 </div>
 </body>
-<script type="text/javascript" src="/Public//Admin/js/jquery.js"></script>
-<script type="text/javascript" src="/Public//Admin/js/common.js"></script>
-<script type="text/javascript" src="/Public//Admin/js/core.js"></script>
-<script type="text/javascript" src="/Public//Admin/js/jquery.dialog.js"></script>
-<script type="text/javascript" src="/Public//Admin/js/index.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/core.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.dialog.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/index.js"></script>
 </html>

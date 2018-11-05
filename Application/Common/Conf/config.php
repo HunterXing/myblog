@@ -5,7 +5,7 @@ return array(
 	
 	//模版常量
 	'TMPL_PARSE_STRING' => array(
-		'__ADMIN__' => __ROOT__.'/Public//Admin', 
+		'__ADMIN__' => __ROOT__.'/Public/Admin',
 	),
 
 

@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="/Public//Admin/css/base.css" />
-<link rel="stylesheet" href="/Public//Admin/css/home.css" />
+<link rel="stylesheet" href="/Public/Admin/css/base.css" />
+<link rel="stylesheet" href="/Public/Admin/css/home.css" />
 <title>移动办公自动化系统</title>
 </head>
 
@@ -16,43 +16,43 @@
     <div class="content">
     	<ul class="toollist ue-clear">
     		<li>
-            	<a href="javascript:;" class="img"><img src="/Public//Admin/images/icon01.png" /></a>
+            	<a href="javascript:;" class="img"><img src="/Public/Admin/images/icon01.png" /></a>
                 <p><a href="javascript:;">通知公告</a></p>
             </li>
             <li>
-            	<a href="javascript:;" class="img"><img src="/Public//Admin/images/icon02.png" /></a>
+            	<a href="javascript:;" class="img"><img src="/Public/Admin/images/icon02.png" /></a>
                 <p><a href="javascript:;">知识库</a></p>
             </li>
             <li>
-            	<a href="javascript:;" class="img"><img src="/Public//Admin/images/icon03.png" /></a>
+            	<a href="javascript:;" class="img"><img src="/Public/Admin/images/icon03.png" /></a>
                 <p><a href="javascript:;">密码修改</a></p>
             </li>
             <li>
-            	<a href="javascript:;" class="img"><img src="/Public//Admin/images/icon04.png" /></a>
+            	<a href="javascript:;" class="img"><img src="/Public/Admin/images/icon04.png" /></a>
                 <p><a href="javascript:;">日程安排</a></p>
             </li>
             <li>
-            	<a href="javascript:;" class="img"><img src="/Public//Admin/images/icon05.png" /></a>
+            	<a href="javascript:;" class="img"><img src="/Public/Admin/images/icon05.png" /></a>
                 <p><a href="javascript:;">添加文章</a></p>
             </li>
             <li>
-            	<a href="javascript:;" class="img"><img src="/Public//Admin/images/icon06.png" /></a>
+            	<a href="javascript:;" class="img"><img src="/Public/Admin/images/icon06.png" /></a>
                 <p><a href="javascript:;">网络硬盘</a></p>
             </li>
             <li>
-            	<a href="javascript:;" class="img"><img src="/Public//Admin/images/icon07.png" /></a>
+            	<a href="javascript:;" class="img"><img src="/Public/Admin/images/icon07.png" /></a>
                 <p><a href="javascript:;">参数信息</a></p>
             </li>
             <li>
-            	<a href="javascript:;" class="img"><img src="/Public//Admin/images/icon08.png" /></a>
+            	<a href="javascript:;" class="img"><img src="/Public/Admin/images/icon08.png" /></a>
                 <p><a href="javascript:;">回收站</a></p>
             </li>
             <li>
-            	<a href="javascript:;" class="img"><img src="/Public//Admin/images/icon09.png" /></a>
+            	<a href="javascript:;" class="img"><img src="/Public/Admin/images/icon09.png" /></a>
                 <p><a href="javascript:;">系统配置</a></p>
             </li>
             <li class="add-btn">
-            	<img src="/Public//Admin/images/add.png" />
+            	<img src="/Public/Admin/images/add.png" />
             </li>
     	</ul>
         
@@ -285,8 +285,8 @@
     </div>
 </div>
 </body>
-<script type="text/javascript" src="/Public//Admin/js/jquery.js"></script>
-<script type="text/javascript" src="/Public//Admin/js/common.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/common.js"></script>
 <script type="text/javascript">
 $(".title-list ul").on("click","li",function(){
 	var aIndex = $(this).index();

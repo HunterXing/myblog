@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="/Public//Admin/css/base.css" />
-	<link rel="stylesheet" href="/Public//Admin/css/login.css" />
+	<link rel="stylesheet" href="/Public/Admin/css/base.css" />
+	<link rel="stylesheet" href="/Public/Admin/css/login.css" />
 	<title>移动办公自动化系统</title>
 </head>
 <body>
@@ -44,8 +44,8 @@
 
     <div id="ft">CopyRight&nbsp;2014&nbsp;&nbsp;版权所有&nbsp;&nbsp;uimaker.com专注于ui设计&nbsp;&nbsp;苏ICP备09003079号</div>
 </body>
-<script type="text/javascript" src="/Public//Admin/js/jquery.js"></script>
-<script type="text/javascript" src="/Public//Admin/js/common.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/common.js"></script>
 <script type="text/javascript">
 var height = $(window).height();
 $("#container").height(height);

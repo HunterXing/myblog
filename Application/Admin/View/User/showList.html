@@ -26,7 +26,7 @@
 	<a href="javascript:;" class="add">添加</a>
     <a href="javascript:;" class="del">删除</a>
     <a href="javascript:;" class="edit">编辑</a>
-    <a href="javascript:;" class="count">统计</a>
+    <a href="__CONTROLLER__/charts" class="count">统计</a>
     <a href="javascript:;" class="check">审核</a>
 </div>
 <div class="table-box">
@@ -67,9 +67,9 @@
 </div>
 <div class="pagination ue-clear">
 	<div class="pagin-list">
-		{$page}
+		{$show}
 	</div>
-	<div class="pxofy">显示第 1 条到 10 条记录，总共{$count}条记录</div>
+	<div class="pxofy">共{$count}条记录</div>
 </div>
 </body>
 <script type="text/javascript" src="__PUBLIC__/Admin/js/jquery.js"></script>

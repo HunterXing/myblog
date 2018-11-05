@@ -280,4 +280,19 @@ class TestController extends Controller
         //2.输出验证码
         $verfiy -> entry();
      }
+
+
+     //联表查询
+    public function test43(){
+        //方法一：使用原生的sql语句
+        /*$model = M();
+        $sql = "select t1.*,t2.name as deptname from sp_user as t1,sp_dept as t2 where t1.dept_id = t2.id";
+        $result = $model -> query($sql);
+        dump($result);*/
+
+        //方法二：使用table方法
+        $model = M();
+        $result = $model ->field('t1.*,t2.name as deptname') ->table('sp_user as t1,sp_dept as t2') -> where('t1.dept_id = t2.id') ->select();
+        dump($result);
+    }
 }
