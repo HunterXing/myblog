@@ -12,11 +12,11 @@ namespace Think;
 
 class Page{
     public $firstRow; // 起始行数
-    public $listRows; // 列表每页显示行数
+    public $listRows; // 列表每页显示行数      limit(start,rows)
     public $parameter; // 分页跳转时要带的参数
     public $totalRows; // 总行数
-    public $totalPages; // 分页总页面数
-    public $rollPage   = 11;// 分页栏每页显示的页数
+    public $totalPages; // 分页总页面数=总行数/每页显示的个数
+    public $rollPage   = 11;// 分页栏每页显示的页数 （页码个数）
 	public $lastSuffix = true; // 最后一页是否显示总页数
 
     private $p       = 'p'; //分页参数名
@@ -56,10 +56,10 @@ class Page{
      * @param string $value 设置值
      */
     public function setConfig($name,$value) {
-        if(isset($this->config[$name])) {
-            $this->config[$name] = $value;
-        }
+    if(isset($this->config[$name])) {
+        $this->config[$name] = $value;
     }
+}
 
     /**
      * 生成链接URL
@@ -74,6 +74,7 @@ class Page{
      * 组装分页链接
      * @return string
      */
+    //生成页码和页码上的url
     public function show() {
         if(0 == $this->totalRows) return '';
 

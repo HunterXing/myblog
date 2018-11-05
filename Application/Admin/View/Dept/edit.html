@@ -14,14 +14,23 @@
 	    <p class="short-input ue-clear">
 	    	<label>部门名称：</label>
 	        <input type="text" name="name" value="{$data.name}" placeholder="部门名称"  />
-	    </p>
+			<!--//隐藏域，传id-->
+			<input type="hidden" name="id" value="{$data.id}">
+		</p>
 	    <div class="short-input select ue-clear">
 	    	<label>上级部门：</label>
 	        <div class="select-wrap">
 	        	<select name="pid">
-              <volist name="deptNames" id="vol">
-                <option value="{vol.id}">{$vo.name}</option>
-              </volist>
+					<option value="0">顶级部门</option>
+					<volist name ='info' id ='vol'>
+						<option value="{$vol.id}"
+							<if condition="$vol.id eq $data.pid " >
+								selected ='selected'
+							</if>
+						 >
+							{$vol.name}
+						</option>
+					</volist>
 	            </select>
 	        </div>
 	    </div>
@@ -55,5 +64,15 @@ $(".select-list").on("click","li",function(){
 
 
 showRemind('input[type=text], textarea','placeholder');
+$(function () {
+	//给确定按钮绑定点击事件
+	$('.confirm').click(function () {
+		$('form').submit();
+    });
+	//给清空按钮绑定点击事件
+	$('.clear').click(function () {
+		$('form')[0].reset();
+    });
+})
 </script>
 </html>

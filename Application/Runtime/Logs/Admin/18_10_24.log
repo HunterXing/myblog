@@ -1,7 +1,0 @@
-[ 2018-10-24T08:07:00+08:00 ] 127.0.0.1 /index.php/Admin/Dept/3
-ERR: 非法操作:3
-
-[ 2018-10-24T18:50:50+08:00 ] 127.0.0.1 /index.php/Admin/Test/test35
-ERR: 1146:Table 'db_oa.sp_user' doesn't exist
- [ SQL语句 ] : SHOW COLUMNS FROM `sp_user`
-

@@ -12,7 +12,7 @@
 <div class="title"><h2>信息管理</h2></div>
 <div class="table-operate ue-clear">
 	<a href="javascript:;" class="add">添加</a>
-    <a href="javascript:;" class="del">删除</a>
+    <a  class="del">删除</a>
     <a href="javascript:;" class="edit">编辑</a>
     <a href="javascript:;" class="count">统计</a>
     <a href="javascript:;" class="check">审核</a>
@@ -32,7 +32,7 @@
         <tbody>
 					<volist name="data" id="vol">
 						<tr>
-						  <td class="num">{$vol.id}</td>
+						    <td class="num">{$vol.id}</td>
 							<td class="name">{$vol.level|str_repeat='&nbsp;',###*3}{$vol.name}</td>
 							<td class="process">
 								<if condition="$vol.pid == 0">顶级部门
@@ -41,7 +41,10 @@
 							</td>
 							<td class="node">{$vol.sort}</td>
 							<td class="time">{$vol.remark}</td>
-							<td class="operate"><a href="__CONTROLLER__/edit/id/{$vol.id}">编辑</a></td>
+							<td class="operate">
+								<input type="checkbox" class="dept_id" value="{$vol.id}">
+								<a href="__CONTROLLER__/edit/id/{$vol.id}">编辑</a>
+							</td>
 						</tr>
 					</volist>
         </tbody>
@@ -75,5 +78,21 @@ $('.pagination').pagination(100,{
 $("tbody").find("tr:odd").css("backgroundColor","#eff6fa");
 
 showRemind('input[type=text], textarea','placeholder');
+$(function () {
+	//给删除按钮绑定点击事件
+	$('.del').click(function () {
+	    //表单选择器 获取所有checkbox的选择器 已经选中的
+		var idObj = $(':checkbox:checked');
+		var id = ''; //接受值组成字符串
+		for(var i = 0; i < idObj.length; i++){
+		    id += idObj[i].value + ',';
+		}
+		//去掉最后的逗号
+		id = id.substring(0,id.length -1);
+		//
+		window.location.href = '__CONTROLLER__/del/id/' + id;
+		//console.log(id);
+    });
+})
 </script>
 </html>

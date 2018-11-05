@@ -1,6 +1,0 @@
-[ 2018-10-27T13:03:27+08:00 ] 127.0.0.1 /index.php/Admin/Dept/edit/id/1
-ERR: 模板不存在:./Application/Admin/View/Dept/edit.html
-
-[ 2018-10-27T13:12:18+08:00 ] 127.0.0.1 /Admin/info-reg.html
-ERR: 无法加载控制器:Info-reg
-
