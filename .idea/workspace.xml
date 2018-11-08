@@ -2,1042 +2,315 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c2ec745-da11-4d71-ab22-1a1a13678b49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Admin/View/User/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/accessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/accessibility.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/accessibility.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/annotations.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/arrow-symbols.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/arrow-symbols.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/arrow-symbols.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/boost-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/boost-canvas.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/boost-canvas.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/boost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/boost.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/boost.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/broken-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/broken-axis.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/broken-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/bullet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/bullet.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/bullet.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/current-date-indicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/current-date-indicator.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/current-date-indicator.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/data.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/drag-panes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/drag-panes.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/drag-panes.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/draggable-points.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/draggable-points.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/draggable-points.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/drilldown.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/export-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/export-data.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/export-data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/exporting.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/funnel.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/gantt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/gantt.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/gantt.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/grid-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/grid-axis.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/grid-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/heatmap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/histogram-bellcurve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/histogram-bellcurve.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/histogram-bellcurve.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/item-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/item-series.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/item-series.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/no-data-to-display.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/offline-exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/offline-exporting.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/offline-exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/oldie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/oldie.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/oldie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/overlapping-datalabels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/overlapping-datalabels.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/parallel-coordinates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/parallel-coordinates.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/pareto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/pareto.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/pareto.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/pathfinder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/pathfinder.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/pathfinder.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/pattern-fill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/pattern-fill.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/pattern-fill.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/sankey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/sankey.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/sankey.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/series-label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/series-label.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/series-label.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/solid-gauge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/solid-gauge.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/solid-gauge.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/static-scale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/static-scale.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/static-scale.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/stock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/stock.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/stock.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/streamgraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/streamgraph.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/streamgraph.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/sunburst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/sunburst.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/sunburst.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/tilemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/tilemap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/tilemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/treegrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/treegrid.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/treegrid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/treemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/treemap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/treemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/variable-pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/variable-pie.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/variable-pie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/variwide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/variwide.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/variwide.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/vector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/vector.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/vector.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/windbarb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/windbarb.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/windbarb.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/wordcloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/wordcloud.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/wordcloud.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/xrange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/xrange.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/js/modules/xrange.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/css/highcharts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/css/highcharts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/css/themes/dark-unica.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/css/themes/grid-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/css/themes/sand-signika.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/highcharts-3d.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/accessibility.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/arrow-symbols.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/boost-canvas.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/boost.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/broken-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/bullet.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/current-date-indicator.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/drag-panes.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/draggable-points.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/export-data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/gantt.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/grid-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/histogram-bellcurve.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/item-series.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/offline-exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/oldie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/pareto.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/pathfinder.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/pattern-fill.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/sankey.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/series-label.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/solid-gauge.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/static-scale.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/stock.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/streamgraph.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/sunburst.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/tilemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/treegrid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/treemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/variable-pie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/variwide.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/vector.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/windbarb.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/wordcloud.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/modules/xrange.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/avocado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/avocado.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/dark-blue.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/dark-green.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/dark-unica.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/gray.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/grid-light.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/grid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/sand-signika.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/skies.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/sunset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/masters/themes/sunset.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/mixins/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/mixins/centered-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/mixins/derived-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/mixins/draw-point.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/mixins/on-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/mixins/polygon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/mixins/tree-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/a11y-i18n.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/bellcurve.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/boost-canvas.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/boost.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/broken-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/bullet.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/drag-panes.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/draggable-points.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/export-data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/histogram.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/item-series.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/keyboard-navigation.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/offline-exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/oldie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/pareto.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/pattern-fill.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/sankey.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/screen-reader.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/series-label.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/solid-gauge.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/static-scale.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/streamgraph.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/sunburst.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/tilemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/treemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/variable-pie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/variwide.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/vector.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/windbarb.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/wordcloud.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/modules/xrange.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/Axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/Column.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/Globals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/Math.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/Pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/SVGRenderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/Scatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/Series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-3d/VMLRenderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-gantt/ArrowSymbols.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-gantt/CurrentDateIndicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-gantt/GanttChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-gantt/GanttSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-gantt/GridAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-gantt/Pathfinder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-gantt/PathfinderAlgorithms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-gantt/Tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-gantt/TreeGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/ColorAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/ColorSeriesMixin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/GeoJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/HeatmapSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/Map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/MapAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/MapBubbleSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/MapLineSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/MapNavigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/MapPointSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/MapPointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-map/MapSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/AreaRangeSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/AreaSplineRangeSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/BoxPlotSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/BubbleSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/ColumnRangeSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/ErrorBarSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/GaugeSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/Pane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/Polar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/PolygonSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/RadialAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts-more/WaterfallSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/AreaSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/AreaSplineSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/BarSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/CandlestickSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/ColumnSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/DataGrouping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/DataLabels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/DateTimeAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Dynamics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/FlagsSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Globals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Interaction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Legend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/LogarithmicAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/MSPointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Navigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/OHLCSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/OrdinalAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/PieSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/PlotBandSeries.experimental.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/PlotLineOrBand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Point.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Pointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/RangeSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/ScatterSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/ScrollablePlotArea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/SplineSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Stacking.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/StockChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/SvgRenderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Tick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/TouchPointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/parts/Utilities.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/supplemental.docs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/avocado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/dark-unica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/grid-light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/sand-signika.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/es-modules/themes/sunset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts-3d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts-3d.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts-3d.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts-more.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/highcharts-3d.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/accessibility.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/arrow-symbols.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/boost-canvas.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/boost.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/broken-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/bullet.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/current-date-indicator.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/drag-panes.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/draggable-points.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/export-data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/gantt.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/grid-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/histogram-bellcurve.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/item-series.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/offline-exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/oldie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/pareto.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/pathfinder.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/pattern-fill.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/sankey.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/series-label.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/solid-gauge.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/static-scale.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/stock.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/streamgraph.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/sunburst.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/tilemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/treegrid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/treemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/variable-pie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/variwide.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/vector.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/windbarb.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/wordcloud.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/modules/xrange.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/avocado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/avocado.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/dark-blue.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/dark-green.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/dark-unica.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/gray.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/grid-light.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/grid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/sand-signika.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/skies.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/sunset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/masters/themes/sunset.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/mixins/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/mixins/centered-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/mixins/derived-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/mixins/draw-point.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/mixins/on-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/mixins/polygon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/mixins/tree-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/a11y-i18n.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/bellcurve.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/boost-canvas.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/boost.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/broken-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/bullet.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/drag-panes.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/draggable-points.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/export-data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/histogram.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/item-series.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/keyboard-navigation.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/offline-exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/oldie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/pareto.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/pattern-fill.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/sankey.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/screen-reader.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/series-label.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/solid-gauge.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/static-scale.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/streamgraph.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/sunburst.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/tilemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/treemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/variable-pie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/variwide.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/vector.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/windbarb.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/wordcloud.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/modules/xrange.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/Axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/Column.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/Globals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/Math.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/Pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/SVGRenderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/Scatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/Series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-3d/VMLRenderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-gantt/ArrowSymbols.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-gantt/CurrentDateIndicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-gantt/GanttChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-gantt/GanttSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-gantt/GridAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-gantt/Pathfinder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-gantt/PathfinderAlgorithms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-gantt/Tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-gantt/TreeGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/ColorAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/ColorSeriesMixin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/GeoJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/HeatmapSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/Map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/MapAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/MapBubbleSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/MapLineSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/MapNavigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/MapPointSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/MapPointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-map/MapSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/AreaRangeSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/AreaSplineRangeSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/BoxPlotSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/BubbleSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/ColumnRangeSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/ErrorBarSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/GaugeSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/Pane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/Polar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/PolygonSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/RadialAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts-more/WaterfallSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/AreaSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/AreaSplineSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/BarSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/CandlestickSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/ColumnSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/DataGrouping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/DataLabels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/DateTimeAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Dynamics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/FlagsSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Globals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Interaction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Legend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/LogarithmicAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/MSPointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Navigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/OHLCSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/OrdinalAxis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/PieSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/PlotBandSeries.experimental.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/PlotLineOrBand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Point.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Pointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/RangeSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/ScatterSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/ScrollablePlotArea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/SplineSeries.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Stacking.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/StockChart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/SvgRenderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Tick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/TouchPointer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/parts/Utilities.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/supplemental.docs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/avocado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/dark-unica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/grid-light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/sand-signika.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/es-modules/themes/sunset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/highcharts-3d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/highcharts-3d.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/highcharts-3d.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/highcharts-more.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/highcharts.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/accessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/accessibility.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/accessibility.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/annotations.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/arrow-symbols.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/arrow-symbols.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/arrow-symbols.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/boost-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/boost-canvas.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/boost-canvas.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/boost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/boost.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/boost.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/broken-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/broken-axis.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/broken-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/bullet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/bullet.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/bullet.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/current-date-indicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/current-date-indicator.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/current-date-indicator.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/data.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/drag-panes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/drag-panes.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/drag-panes.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/draggable-points.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/draggable-points.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/draggable-points.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/drilldown.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/export-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/export-data.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/export-data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/exporting.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/funnel.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/gantt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/gantt.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/gantt.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/grid-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/grid-axis.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/grid-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/heatmap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/histogram-bellcurve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/histogram-bellcurve.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/histogram-bellcurve.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/item-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/item-series.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/item-series.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/no-data-to-display.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/offline-exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/offline-exporting.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/offline-exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/oldie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/oldie.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/oldie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/overlapping-datalabels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/overlapping-datalabels.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/parallel-coordinates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/parallel-coordinates.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/pareto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/pareto.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/pareto.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/pathfinder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/pathfinder.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/pathfinder.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/pattern-fill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/pattern-fill.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/pattern-fill.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/sankey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/sankey.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/sankey.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/series-label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/series-label.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/series-label.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/solid-gauge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/solid-gauge.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/solid-gauge.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/static-scale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/static-scale.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/static-scale.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/stock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/stock.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/stock.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/streamgraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/streamgraph.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/streamgraph.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/sunburst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/sunburst.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/sunburst.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/tilemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/tilemap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/tilemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/treegrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/treegrid.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/treegrid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/treemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/treemap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/treemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/variable-pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/variable-pie.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/variable-pie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/variwide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/variwide.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/variwide.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/vector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/vector.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/vector.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/windbarb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/windbarb.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/windbarb.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/wordcloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/wordcloud.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/wordcloud.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/xrange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/xrange.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/modules/xrange.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/avocado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/avocado.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/avocado.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/dark-blue.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/dark-blue.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/dark-green.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/dark-green.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/dark-unica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/dark-unica.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/dark-unica.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/gray.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/gray.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/grid-light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/grid-light.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/grid-light.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/grid.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/grid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/sand-signika.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/sand-signika.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/sand-signika.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/skies.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/skies.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/sunset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/sunset.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/js/themes/sunset.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/lib/canvg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/lib/canvg.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/lib/jspdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/lib/jspdf.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/lib/rgbcolor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/lib/rgbcolor.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/lib/svg2pdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/lib/svg2pdf.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/accessibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/accessibility.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/accessibility.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/annotations.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/arrow-symbols.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/arrow-symbols.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/arrow-symbols.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/boost-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/boost-canvas.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/boost-canvas.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/boost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/boost.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/boost.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/broken-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/broken-axis.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/broken-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/bullet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/bullet.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/bullet.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/current-date-indicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/current-date-indicator.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/current-date-indicator.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/data.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/drag-panes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/drag-panes.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/drag-panes.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/draggable-points.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/draggable-points.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/draggable-points.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/drilldown.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/export-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/export-data.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/export-data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/exporting.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/funnel.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/gantt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/gantt.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/gantt.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/grid-axis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/grid-axis.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/grid-axis.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/heatmap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/histogram-bellcurve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/histogram-bellcurve.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/histogram-bellcurve.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/item-series.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/item-series.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/item-series.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/no-data-to-display.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/offline-exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/offline-exporting.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/offline-exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/oldie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/oldie.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/oldie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/overlapping-datalabels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/overlapping-datalabels.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/overlapping-datalabels.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/parallel-coordinates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/parallel-coordinates.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/parallel-coordinates.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/pareto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/pareto.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/pareto.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/pathfinder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/pathfinder.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/pathfinder.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/pattern-fill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/pattern-fill.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/pattern-fill.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/sankey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/sankey.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/sankey.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/series-label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/series-label.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/series-label.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/solid-gauge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/solid-gauge.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/solid-gauge.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/static-scale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/static-scale.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/static-scale.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/stock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/stock.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/stock.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/streamgraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/streamgraph.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/streamgraph.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/sunburst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/sunburst.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/sunburst.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/tilemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/tilemap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/tilemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/treegrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/treegrid.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/treegrid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/treemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/treemap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/treemap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/variable-pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/variable-pie.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/variable-pie.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/variwide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/variwide.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/variwide.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/vector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/vector.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/vector.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/windbarb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/windbarb.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/windbarb.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/wordcloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/wordcloud.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/wordcloud.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/xrange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/xrange.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/modules/xrange.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/avocado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/avocado.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/avocado.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/dark-blue.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/dark-blue.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/dark-green.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/dark-green.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/dark-unica.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/dark-unica.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/dark-unica.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/gray.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/gray.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/grid-light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/grid-light.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/grid-light.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/grid.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/grid.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/sand-signika.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/sand-signika.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/sand-signika.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/skies.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/skies.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/sunset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/sunset.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/code/themes/sunset.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/3d-column-interactive/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/3d-column-null-values/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/3d-column-stacking-grouping/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/3d-pie-donut/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/3d-pie/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/3d-scatter-draggable/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/annotations/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/area-basic/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/area-inverted/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/area-missing/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/area-negative/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/area-stacked-percent/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/area-stacked/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/arearange-line/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/arearange/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/areaspline/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/bar-basic/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/bar-negative-stack/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/bar-stacked/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/bellcurve/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/box-plot/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/bubble-3d/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/bubble/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/bullet-graph/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/chart-update/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/column-basic/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/column-drilldown/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/column-negative/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/column-parsed/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/column-placement/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/column-rotated-labels/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/column-stacked-and-grouped/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/column-stacked-percent/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/column-stacked/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/columnrange/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/combo-dual-axes/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/combo-meteogram/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/combo-multi-axes/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/combo-regression/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/combo-timeline/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/combo/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/dynamic-click-to-add/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/dynamic-master-detail/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/dynamic-update/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/error-bar/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/funnel/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/gauge-activity/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/gauge-clock/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/gauge-dual/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/gauge-solid/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/gauge-speedometer/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/gauge-vu-meter/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/heatmap-canvas/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/heatmap/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/histogram/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/honeycomb-usa/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/line-ajax/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/line-basic/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/line-boost/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/line-labels/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/line-log-axis/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/line-time-series/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/live-data/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/parallel-coordinates/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/pareto/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/pie-basic/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/pie-donut/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/pie-drilldown/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/pie-gradient/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/pie-legend/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/pie-monochrome/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/pie-semi-circle/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/polar-spider/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/polar-wind-rose/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/polar/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/polygon/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/pyramid/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/renderer/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/responsive/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/sankey-diagram/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/scatter-boost/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/scatter/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/sparkline/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/spline-inverted/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/spline-irregular-time/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/spline-plot-bands/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/spline-symbols/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/streamgraph/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/styled-mode-column/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/styled-mode-pie/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/sunburst/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/synchronized-charts/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/treemap-coloraxis/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/treemap-large-dataset/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/treemap-with-levels/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/variable-radius-pie/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/variwide/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/vector-plot/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/waterfall/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/windbarb-series/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/wordcloud/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/examples/x-range/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/gfx/vml-radial-gradient.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/cursor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/earth.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/feature.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/fibonacci.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/flag-circlepin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/flag-diamondpin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/flag-flag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/flag-squarepin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/flag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/line.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/rect.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/reset.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/save.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/skies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/snow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/sun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/text.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/graphics/tunnel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/charts/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Admin/Controller/DocController.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Admin/Model/DocModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Admin/View/Doc/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Admin/View/Doc/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Admin/View/Doc/showList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Common/Common/function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/background/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/background/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/help/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/help/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/image/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/link/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/map/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/music/music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/music/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/music/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/table/dragicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/table/edittable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/table/edittable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/table/edittable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/table/edittd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/table/edittip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/addimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/listbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/en/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/php/Uploader.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/php/action_crawler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/php/action_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/php/action_upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/php/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/php/controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/css/ueditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/dialogbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/filescan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/loaderror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/lock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/sortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/word.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/themes/iframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/video-js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/xss.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/ueditor.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/ueditor.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/ueditor.parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Admin/plugin/ueditor/ueditor.parse.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/View/User/showList.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/User/showList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Common/Conf/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Common/Conf/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/2b742c0b98e4dedae3fbc0db61764b62.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/2b742c0b98e4dedae3fbc0db61764b62.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/3c5566b2bfbf6ef00ac5366ba47246fe.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/3c5566b2bfbf6ef00ac5366ba47246fe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/4f08e411573a5b99158b50bf7f027ab7.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/4f08e411573a5b99158b50bf7f027ab7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ac960a5be01d38f91ee0fb193efff55a.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ac960a5be01d38f91ee0fb193efff55a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/f9f03a5bf1fbdbda752dba6d64925151.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/f9f03a5bf1fbdbda752dba6d64925151.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/18_11_05.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/18_11_05.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/18_11_05.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/18_11_05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/2b742c0b98e4dedae3fbc0db61764b62.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/3c5566b2bfbf6ef00ac5366ba47246fe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/4e1f0ee1a12a8dbb63343fe9e6a3f60d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/4f08e411573a5b99158b50bf7f027ab7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/64059f842321e42c4ea9e7cc0e2cfaf4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ac960a5be01d38f91ee0fb193efff55a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/ece80d0bc15a2d75afe318e252283d26.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/f9f03a5bf1fbdbda752dba6d64925151.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/20914c0f075f91df3579ffbdf5180b02.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/18_11_05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/18_11_05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1048,77 +321,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php">
+      <file leaf-file-name="Upload.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2173">
-              <caret line="295" column="22" selection-start-line="295" selection-start-column="22" selection-end-line="295" selection-end-column="22" />
+            <state relative-caret-position="125">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php">
+      <file leaf-file-name="DocModel.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Model/DocModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="86" column="45" lean-forward="true" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+            <state relative-caret-position="450">
+              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="charts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/View/User/charts.html">
+      <file leaf-file-name="DocController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/DocController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="296">
+              <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Doc/showList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Doc/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#0;n#label#0;n#p#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/Admin/plugin/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="4" selection-start-column="4" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Conf/config.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Doc/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="421">
+              <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/Admin/js/modules/data.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="highcharts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/Admin/js/highcharts.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/View/User/add.html">
+      <file leaf-file-name="TestController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="7475">
+              <caret line="299" column="29" selection-start-line="299" selection-start-column="29" selection-end-line="299" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -1135,11 +408,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>D</find>
-      <find>function D</find>
+      <find />
       <find>highcharts-credi</find>
       <find>highcharts.co</find>
       <find>highcharts.com</find>
       <find>highcharts.</find>
+      <find>公文</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1153,21 +427,26 @@
         <option value="$PROJECT_DIR$/Application/Admin/View/Dept/showList.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/index.html" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/indx.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/index.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/DeptController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/User/add.html" />
         <option value="$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/User/showList.html" />
-        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/Public/Admin/plugin/README.md" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php" />
         <option value="$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts.js" />
         <option value="$PROJECT_DIR$/Application/Admin/View/User/charts.html" />
+        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Doc/add.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Doc/showList.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Doc/edit.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/DocController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/DocModel.class.php" />
       </list>
     </option>
   </component>
@@ -1180,11 +459,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="26" />
-    <option name="y" value="68" />
-    <option name="width" value="1332" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="712" />
+    <option name="y" value="33" />
+    <option name="width" value="1542" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -1192,6 +471,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1208,49 +488,42 @@
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="charts" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1267,10 +540,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\WWW\myblog\Application\Admin\View\Doc" />
       <recent name="G:\WWW\myblog\Public\Admin\plugin" />
+      <recent name="G:\WWW\myblog\Application\Common\Common" />
       <recent name="G:\WWW\myblog\Public\Admin\js" />
       <recent name="G:\WWW\myblog\Application\Admin\View\User" />
-      <recent name="G:\WWW\myblog\Application\Home\Controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1344,14 +618,20 @@
       <workItem from="1541377000988" duration="11602000" />
       <workItem from="1541399072360" duration="600000" />
       <workItem from="1541400157042" duration="17639000" />
+      <workItem from="1541461885872" duration="9718000" />
+      <workItem from="1541473779388" duration="4389000" />
+      <workItem from="1541489965421" duration="4949000" />
+      <workItem from="1541551188850" duration="6932000" />
+      <workItem from="1541642700960" duration="3186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33732000" />
+    <option name="totallyTimeSpent" value="62906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="570" y="27" width="1233" height="814" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1366,7 +646,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30093834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.087659575" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1389,84 +669,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/User/showList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/User/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/User/showList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/User/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6750">
-          <caret line="270" column="31" selection-start-line="270" selection-start-column="31" selection-end-line="270" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6750">
-          <caret line="270" column="31" selection-start-line="270" selection-start-column="31" selection-end-line="270" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1325">
@@ -1505,9 +713,6 @@
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Dept/add.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1537,18 +742,8 @@
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Model/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1606,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -1637,17 +825,7 @@
     <entry file="file://$PROJECT_DIR$/Application/Admin/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2173">
-          <caret line="295" column="22" selection-start-line="295" selection-start-column="22" selection-end-line="295" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/Admin/js/highcharts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Admin/js/modules/data.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/Admin/plugin/README.md">
@@ -1660,20 +838,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="86" column="45" lean-forward="true" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/Admin/plugin/charts/code/highcharts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="109" column="293" lean-forward="true" selection-start-line="109" selection-start-column="267" selection-end-line="109" selection-end-column="293" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1681,16 +849,121 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="425">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="25" column="43" selection-start-line="17" selection-start-column="12" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Common/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Admin/plugin/ueditor/php/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Admin/js/modules/data.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Upload/2018-11-06/5be135f0677a6.png" />
+    <entry file="file://$PROJECT_DIR$/Public/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7475">
+          <caret line="299" column="29" selection-start-line="299" selection-start-column="29" selection-end-line="299" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Doc/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#script#0;n#label#0;n#p#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Doc/showList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Doc/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/DocController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/DocModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
         </state>
       </provider>
     </entry>

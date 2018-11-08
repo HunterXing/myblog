@@ -39,13 +39,11 @@
             </ul>
           </li>
           <li class="gongwen">
-            <div class="nav-header"><a href="javascript:;" class="ue-clear"><span>公文起草</span><i class="icon"></i></a></div>
+            <div class="nav-header"><a href="javascript:;" class="ue-clear"><span>公文管理</span><i class="icon"></i></a></div>
             <ul class="subnav">
-              <li><a href="javascript:;" date-src="info-reg.html">信息录入</a></li>
-              <li><a href="javascript:;" date-src="info-mgt.html">信息管理</a></li>
-              <li><a href="javascript:;" date-src="info-det.html">领导值岗管理</a></li>
-              <li><a href="javascript:;">中层领导管理</a></li>
-              <li><a href="javascript:;">领导值班记录</a></li>
+              <li><a href="javascript:;" date-src="<?php echo U('Doc/showList');?>">公文列表</a></li>
+              <li><a href="javascript:;" date-src="<?php echo U('Doc/add');?>">添加公文</a></li>
+
             </ul>
           </li>
           <li class="nav-info">

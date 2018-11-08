@@ -295,4 +295,8 @@ class TestController extends Controller
         $result = $model ->field('t1.*,t2.name as deptname') ->table('sp_user as t1,sp_dept as t2') -> where('t1.dept_id = t2.id') ->select();
         dump($result);
     }
+
+    public function test44(){
+        echo get_client_ip();
+    }
 }

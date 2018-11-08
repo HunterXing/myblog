@@ -11,7 +11,7 @@ return array(
 
 	 /* 数据库设置 */
     'DB_TYPE'               =>  'mysql',     	 // 数据库类型
-    /*'DB_HOST'               =>  'localhost', 	 // 服务器地址*/
+    /*'DB_HOST'             =>  'localhost', 	 // 服务器地址*/
     'DB_HOST'               =>  '212.64.25.152', 	 // 服务器地址
     'DB_NAME'               =>  'db_oa',         // 数据库名
     'DB_USER'               =>  'ted',      	 // 用户名

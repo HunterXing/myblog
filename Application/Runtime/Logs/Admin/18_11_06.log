@@ -1,0 +1,36 @@
+[ 2018-11-06T08:34:42+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2018-11-06T08:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2018-11-06T08:34:46+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2018-11-06T08:34:57+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: 非法操作:showList
+
+[ 2018-11-06T08:35:00+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: 模板不存在:./Application/Admin/View/Doc/add.html
+
+[ 2018-11-06T09:01:10+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: 1146:Table 'db_oa.sp_d_o_c' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_d_o_c`
+
+[ 2018-11-06T09:02:02+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: 1366:Incorrect string value: '\xE6\xB5\x8B\xE8\xAF\x95' for column 'title' at row 1
+ [ SQL语句 ] : INSERT INTO `sp_doc` (`title`,`author`,`content`,`addtime`) VALUES ('测试','阿小','123123123','1541466121')
+
+[ 2018-11-06T09:08:56+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: 1364:Field 'filepath' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `sp_doc` (`title`,`author`,`content`,`addtime`) VALUES ('测试','阿小','123123123','1541466536')
+
+[ 2018-11-06T09:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Doc/showList.html
+ERR: Think\Controller:dispaly方法不存在！
+
+[ 2018-11-06T11:18:33+08:00 ] 127.0.0.1 /index.php/Admin/Doc/add.html
+ERR: Think\Model:saveData方法不存在！
+
+[ 2018-11-06T17:21:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-reg.html
+ERR: 非法操作:info-reg
+
