@@ -58,9 +58,15 @@ class DocModel extends  Model{
             //上传
             $info = $upload -> uploadOne($file);
             //dump($info);die;
+            if($info){
+                $post['filepath'] = UPLOAD_ROOT_PATH.$info['savepath'].$info['savename'];
+                $post['filename'] = $info['name'];
+                $post['hasfile'] = 1;
+            }
         }
+        //dump($post);die;
         //没文件  写入数据
-
+        return $this -> save($post);
 
     }
 }
