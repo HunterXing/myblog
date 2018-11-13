@@ -63,10 +63,10 @@
             <ul class="subnav">
               <li><a href="javascript:;" date-src="<?php echo U('Email/send');?>">发邮件</a></li>
               <li><a href="javascript:;" date-src="<?php echo U('Email/sendBox');?>">发件箱</a></li>
-              <li><a href="javascript:;" date-src="<?php echo U('Email/recieveBox');?>">收件箱</a></li>
+              <li><a href="javascript:;" date-src="<?php echo U('Email/recBox');?>">收件箱</a></li>
             </ul>
           </li>
-         
+
         </ul>
       </div>
       <div class="content">

@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="/Public/Admin/css/base.css" />
 <link rel="stylesheet" href="/Public/Admin/css/info-mgt.css" />
 <link rel="stylesheet" href="/Public/Admin/css/WdatePicker.css" />
-<title>移动办公自动化系统</title>
+<title>发件箱</title>
 <style type='text/css'>
 	table tr .id{ width:63px; text-align: center;}
 	table tr .name{ width:118px; padding-left:17px;}

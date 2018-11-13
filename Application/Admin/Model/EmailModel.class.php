@@ -27,7 +27,7 @@ class EmailModel extends Model{
         $post['addtime'] = time();        //发送时间
 
         //数据的保存
-        dump($post);die;
+       // dump($post);die;
         return $this -> add($post);
 
     }

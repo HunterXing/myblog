@@ -40,8 +40,22 @@ class EmailController extends CommonController{
        //dump($sql);die;
        $data = M('Email') -> query($sql);
        $this -> assign('data',$data);
-        $this ->  display();
+       $this ->  display();
    }
+
+
+    public function recBox(){
+        $sql = "select t1.*,t2.truename as truename 
+                  from sp_email as t1 left join sp_user as t2 on t1.from_id = t2.id 
+                  where t1.to_id =".session('id')."";
+        //dump($sql);die;
+        $data = M('Email') -> query($sql);
+        //dump($data);die;
+        $this -> assign('data',$data);
+        $this -> display();
+
+    }
+
 
     //下载
     public  function  download(){
@@ -65,8 +79,11 @@ class EmailController extends CommonController{
         readfile($file);
     }
 
-    function _empty(){
+   /* function _empty(){
         $this ->display('Empty/error');
-    }
+    }*/
+
+
+
 
 }
