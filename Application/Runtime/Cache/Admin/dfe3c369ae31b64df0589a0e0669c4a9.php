@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="/myblog/Public/Admin/css/base.css" />
-<link rel="stylesheet" href="/myblog/Public/Admin/css/info-reg.css" />
+<link rel="stylesheet" href="/Public/Admin/css/base.css" />
+<link rel="stylesheet" href="/Public/Admin/css/info-reg.css" />
 <title>移动办公自动化系统</title>
 <style type='text/css'>
 	select {
-		background: rgba(0, 0, 0, 0) url("/myblog/Public/Admin/images/inputbg.png") repeat-x scroll 0 0;
+		background: rgba(0, 0, 0, 0) url("/Public/Admin/images/inputbg.png") repeat-x scroll 0 0;
 	    border: 1px solid #c5d6e0;
 	    height: 28px;
 	    outline: medium none;
@@ -28,7 +28,7 @@
     	<label>收件人：</label>
         <select name="to_id">
         	<option value="0">请选择收件人</option>
-        	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vol["id"]); ?>"><?php echo ($vol["truename"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+        	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vol["id"]); ?>"><?php echo ($vol["truename"]); ?>(<?php echo ($vol["username"]); ?>)</option><?php endforeach; endif; else: echo "" ;endif; ?>
         </select>
     </p>
 	<p class="short-input ue-clear">
@@ -50,9 +50,9 @@
 </div>
 </form>
 </body>
-<script type="text/javascript" src="/myblog/Public/Admin/js/jquery.js"></script>
-<script type="text/javascript" src="/myblog/Public/Admin/js/common.js"></script>
-<script type="text/javascript" src="/myblog/Public/Admin/js/WdatePicker.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/WdatePicker.js"></script>
 <script type="text/javascript">
 $(function(){
 	$('#btnSubmit').on('click',function(){

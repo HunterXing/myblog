@@ -27,16 +27,6 @@
           <p>功能导航</p>
         </h2>
         <ul class="nav">
-          <li class="office current">
-            <div class="nav-header"><a href="javascript:;" date-src="home.html" class="ue-clear"><span>日常办公</span><i class="icon"></i></a></div>
-            <ul class="subnav">
-              <li><a href="javascript:;" date-src="info-reg.html">信息录入</a></li>
-              <li><a href="javascript:;" date-src="info-mgt.html">信息管理</a></li>
-              <li><a href="javascript:;" date-src="info-det.html">领导值岗管理</a></li>
-              <li><a href="javascript:;">中层领导管理</a></li>
-              <li><a href="javascript:;">领导值班记录</a></li>
-            </ul>
-          </li>
           <li class="gongwen">
             <div class="nav-header"><a href="javascript:;" class="ue-clear"><span>公文管理</span><i class="icon"></i></a></div>
             <ul class="subnav">
@@ -76,16 +66,7 @@
               <li><a href="javascript:;" date-src="<?php echo U('Email/recieveBox');?>">收件箱</a></li>
             </ul>
           </li>
-          <li class="system">
-            <div class="nav-header"><a href="javascript:;" class="ue-clear"><span>系统管理</span><i class="icon"></i></a></div>
-            <ul class="subnav">
-              <li><a href="javascript:;" date-src="info-reg.html">信息录入</a></li>
-              <li><a href="javascript:;" date-src="info-mgt.html">信息管理</a></li>
-              <li><a href="javascript:;" date-src="info-det.html">领导值岗管理</a></li>
-              <li><a href="javascript:;">中层领导管理</a></li>
-              <li><a href="javascript:;">领导值班记录</a></li>
-            </ul>
-          </li>
+         
         </ul>
       </div>
       <div class="content">

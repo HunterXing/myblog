@@ -46,7 +46,7 @@ class KnowledgeModel extends Model{
                 $image->thumb(100, 100);
 
                 //4.保存图片，传递保存完整的路径（目录+文件名）
-                $image -> save(WORKING_PATH.UPLOAD_ROOT_PATH.$info['savepath'].'_thumb'.$info['savename']);
+                $image -> save(WORKING_PATH.UPLOAD_ROOT_PATH.$info['savepath'].'thumb_'.$info['savename']);
 
                 //5.补全数据库字段
                 $post['thumb'] = UPLOAD_ROOT_PATH.$info['savepath'].'thumb_'.$info['savename'];

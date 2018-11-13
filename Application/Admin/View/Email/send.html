@@ -29,7 +29,7 @@
         <select name="to_id">
         	<option value="0">请选择收件人</option>
         	<volist name='data' id='vol'>
-        		<option value="{$vol.id}">{$vol.truename}</option>
+        		<option value="{$vol.id}">{$vol.truename}({$vol.username})</option>
         	</volist>
         </select>
     </p>

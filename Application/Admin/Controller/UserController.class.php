@@ -9,9 +9,9 @@
 
 namespace Admin\Controller;
 
-use Think\Controller;
+//use Think\Controller;
 
-class UserController extends  Controller{
+class UserController extends  CommonController{
     //add
     public function  add(){
         if(IS_POST){

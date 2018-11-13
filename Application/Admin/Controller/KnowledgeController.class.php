@@ -9,9 +9,9 @@
 
 namespace  Admin\Controller;
 
-use Think\Controller;
+//use Think\Controller;
 
-class KnowledgeController extends Controller{
+class KnowledgeController extends CommonController{
         public function showList(){
             //获取数据
             $model = M('Knowledge');
@@ -38,9 +38,11 @@ class KnowledgeController extends Controller{
                 }else{
                     $this -> error('添加知识失败');
                 }
+            }else{
+                //展示模板
+                $this -> display();
             }
-            //展示模板
-            $this -> display();
+
         }
 
         //download方法
@@ -51,9 +53,9 @@ class KnowledgeController extends Controller{
             $data = M('Knowledge') -> find($id);
             //下载代码
             $file = WORKING_PATH . $data['picture'];
-            header("Content-type: application/octet-stream");
-            header('Content-Disposition: attachment; filename="' . basename($file) . '"');
-            header("Content-Length: ". filesize($file));
+            //调用thinkphp自带库里面的HTTPS类里面的静态方法
+            \Org\Net\Http::download($file,$data['filename']);
+
             readfile($file);
         }
 

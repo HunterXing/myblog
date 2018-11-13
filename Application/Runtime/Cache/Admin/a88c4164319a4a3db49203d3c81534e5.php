@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="/myblog/Public/Admin/css/base.css" />
-<link rel="stylesheet" href="/myblog/Public/Admin/css/info-mgt.css" />
-<link rel="stylesheet" href="/myblog/Public/Admin/css/WdatePicker.css" />
+<link rel="stylesheet" href="/Public/Admin/css/base.css" />
+<link rel="stylesheet" href="/Public/Admin/css/info-mgt.css" />
+<link rel="stylesheet" href="/Public/Admin/css/WdatePicker.css" />
 <title>移动办公自动化系统</title>
 <style type='text/css'>
 	table tr .id{ width:63px; text-align: center;}
@@ -23,7 +23,7 @@
 <body>
 <div class="title"><h2>知识管理</h2></div>
 <div class="table-operate ue-clear">
-	<a href="/myblog/index.php/Admin/Knowledge/add" class="add">添加</a>
+	<a href="/index.php/Admin/Knowledge/add" class="add">添加</a>
     <a href="javascript:;" class="del">删除</a>
     <a href="javascript:;" class="edit">编辑</a>
     <a href="javascript:;" class="check">审核</a>
@@ -45,7 +45,7 @@
         	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
             	<td class="id"><?php echo ($vo["id"]); ?></td>
                 <td class="name"><?php echo ($vo["title"]); ?></td>
-				<td class="file"><img src="<?php echo ($vo["thumb"]); ?>"/><?php if(!empty($vo["picture"])): ?>【<a href='/myblog/index.php/Admin/Knowledge/download/id/<?php echo ($vo["id"]); ?>'>下载</a>】<?php endif; ?></td>
+				<td class="file"><img src="<?php echo ($vo["thumb"]); ?>"/><?php if(!empty($vo["picture"])): ?>【<a href='/index.php/Admin/Knowledge/download/id/<?php echo ($vo["id"]); ?>'>下载</a>】<?php endif; ?></td>
                 <td class="content"><?php echo (msubstr($vo["content"],0,20)); ?></td>
                 <td class="content"><?php echo ($vo["author"]); ?></td>
                 <td class="addtime"><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>
@@ -63,9 +63,9 @@
 	<div class="pxofy">共 <?php echo ($count); ?> 条记录</div>
 </div>
 </body>
-<script type="text/javascript" src="/myblog/Public/Admin/js/jquery.js"></script>
-<script type="text/javascript" src="/myblog/Public/Admin/js/common.js"></script>
-<script type="text/javascript" src="/myblog/Public/Admin/js/WdatePicker.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/WdatePicker.js"></script>
 <script type="text/javascript">
 $(".select-title").on("click",function(){
 	$(".select-list").hide();

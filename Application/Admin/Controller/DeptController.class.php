@@ -1,8 +1,8 @@
 <?php
  namespace Admin\Controller;
 
- use Think\Controller;
- class DeptController extends Controller
+ //use Think\Controller;
+ class DeptController extends CommonController
  {
 
      public function add()
