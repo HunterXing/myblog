@@ -18,17 +18,14 @@ class DocController extends  Controller{
           $post = I('post.');
           $model = D('Doc');
           $result = $model -> saveData($post,$_FILES['file']);
-
           if($result){
               $this -> success('添加公文成功',U('showList'),3);
           }else{
               $this -> error('添加失败');
           }
-
         }else{
             $this -> display();
         }
-
     }
 
     //展示
@@ -57,11 +54,7 @@ class DocController extends  Controller{
         header("Content-Length: ". filesize($file));
         //输出缓冲区
         readfile($file);
-
-
     }
-
-
 
     //编辑
     public function  edit(){

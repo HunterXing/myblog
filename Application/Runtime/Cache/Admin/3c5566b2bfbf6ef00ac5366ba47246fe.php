@@ -4,14 +4,14 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="/Public/Admin/css/base.css" />
 	<link rel="stylesheet" href="/Public/Admin/css/login.css" />
-	<title>移动办公自动化系统</title>
+	<title>测试系统</title>
 </head>
 <body>
 	<div id="container">
 		<form class="" action="<?php echo U('checkLogin');?>" method="post">
 		<div id="bd">
 			<div class="login1">
-            	<div class="login-top"><h1 class="logo"></h1></div>
+            	<div class="login-top"></h1></div>
                 <div class="login-input">
                 	<p class="user ue-clear">
                     	  <label>用户名</label>
@@ -42,8 +42,7 @@
 		</form>
 	</div>
 
-    <div id="ft">CopyRight&nbsp;2014&nbsp;&nbsp;版权所有&nbsp;&nbsp;uimaker.com专注于ui设计&nbsp;&nbsp;苏ICP备09003079号</div>
-</body>
+    </body>
 <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
 <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
 <script type="text/javascript">

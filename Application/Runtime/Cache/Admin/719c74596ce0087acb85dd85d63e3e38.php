@@ -21,9 +21,9 @@
 </head>
 
 <body>
-<div class="title"><h2>知识管理</h2></div>
+<div class="title"><h2>邮件管理</h2></div>
 <div class="table-operate ue-clear">
-	<a href="/myblog/index.php/Admin/Knowledge/add" class="add">添加</a>
+	<a href="/myblog/index.php/Admin/Email/add" class="add">添加</a>
     <a href="javascript:;" class="del">删除</a>
     <a href="javascript:;" class="edit">编辑</a>
     <a href="javascript:;" class="check">审核</a>
@@ -33,24 +33,26 @@
     	<thead>
         	<tr>
             	<th class="id">序号</th>
-                <th class="name">标题</th>
-				<th class="file">缩略图</th>
+                <th class="name">收件人</th>
+				<th class="name">标题</th>
+                <th class="file">附件</th>
                 <th class="content">内容</th>
-                <th class="content">作者</th>
-				<th class="addtime">添加时间</th>
+				<th class="addtime">发送时间</th>
+                <th class="status">状态</th>
                 <th class="operate">操作</th>
             </tr>
         </thead>
         <tbody>
         	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
             	<td class="id"><?php echo ($vo["id"]); ?></td>
+                <td class="name"><?php echo ($vo["truename"]); ?></td>
                 <td class="name"><?php echo ($vo["title"]); ?></td>
-				<td class="file"><img src="<?php echo ($vo["thumb"]); ?>"/><?php if(!empty($vo["picture"])): ?>【<a href='/myblog/index.php/Admin/Knowledge/download/id/<?php echo ($vo["id"]); ?>'>下载</a>】<?php endif; ?></td>
-                <td class="content"><?php echo (msubstr($vo["content"],0,20)); ?></td>
-                <td class="content"><?php echo ($vo["author"]); ?></td>
+				<td class="file"><?php echo ($vo["filename"]); if($vo["hasfile"] == 1): ?>【<a href="/myblog/index.php/Admin/Email/download/id/<?php echo ($vo["id"]); ?>">下载</a>】<?php endif; ?></td>
+                <td class="content"><?php echo (msubstr($vo["content"],0,10)); ?></td>
                 <td class="addtime"><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>
+                <td class="status"><?php if($vo["isread"] == 0): ?><span style="color: red;">未读</span><?php else: ?><span style="color:grey;">已读</span><?php endif; ?></td>
                 <td class="operate">
-                	<a href ='javascript:;'>查看</a>
+                	<a href ='javascript:;'>删除</a>
                 </td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
